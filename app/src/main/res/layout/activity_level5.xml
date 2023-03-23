@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Level_5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="Tap the Different Colour!"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/timertextView"
+            android:layout_width="359dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="TextView"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:orientation="vertical"
+            android:scaleType="fitCenter">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelector5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    tools:layout_editor_absoluteX="142dp"
+                    tools:layout_editor_absoluteY="109dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled11"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled12"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled13"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled14"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled15"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled16"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled17"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled18"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled19"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled21"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled22"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled23"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled24"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled25"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled26"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled27"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled28"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled29"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled30"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled31"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled32"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled33"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled34"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled35"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+                <Button
+                    android:id="@+id/btnBgSelectorDisabled10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_bg_selector_disabled"
+                    android:padding="8dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/score_archieved"
+                    android:layout_width="263dp"
+                    android:layout_height="match_parent"
+                    android:gravity="right"
+                    android:text="Score Achieved: "
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/score"
+                    android:layout_width="221dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="20"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/endGame5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="End Game" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
